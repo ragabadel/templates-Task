@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook Signup Form</title>
+   <link rel="stylesheet" href="static/css/style.css">
+
+         <!-- Navigation bar  -->
+      <nav>
+            <center>
+
+        <a href="/index.html">Home</a>
+        <a href="/Products.html">Products</a>
+        <a href="/Galary.html">Galary</a>
+        <a href="/My-Cv.html">My_CV</a>
+        <a href="/signup.html">Sigin</a>
+         <a href="/ForgottenPassword.html">ForgottenPassword</a>
+      </nav>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">facebook</div>
+        <h2>Create a new account</h2>
+        <div class="sub-text">It's quick and easy.</div>
+        <form>
+            <input type="text" placeholder="First name" required>
+            <input type="text" placeholder="Surname" required>
+            <div style="display:flex; gap:8px; margin-bottom:10px;">
+                <select required>
+                    <option>11</option>
+                    <!-- Add more days as needed -->
+                </select>
+                <select required>
+                    <option>Nov</option>
+                    <!-- Add more months as needed -->
+                </select>
+                <select required>
+                    <option>2025</option>
+                    <!-- Add more years as needed -->
+                </select>
+            </div>
+            <div class="gender-group">
+                <label>
+                    <input type="radio" name="gender" value="female" style="margin-right:5px;">Female
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="male" style="margin-right:5px;">Male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="custom" style="margin-right:5px;">Custom
+                </label>
+            </div>
+            <input type="text" placeholder="Mobile number or email address" required>
+            <input type="password" placeholder="New password" required>
+            <div class="info">
+                People who use our service may have uploaded your contact information to Facebook. Learn more.<br><br>
+                By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy.<br>
+                You may receive SMS notifications from us and can opt out at any time.
+            </div>
+            <button type="submit" class="btn">Sign Up</button>
+        </form>
+        <div class="footer-link">
+            <a href="#">Already have an account?</a>
+        </div>
+    </div>
+</body>
+</html>
